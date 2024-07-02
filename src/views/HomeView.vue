@@ -1,7 +1,7 @@
 <template>
-    <h1>BMI Calculator</h1>
+    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl text-center mt-6">BMI Calculator</h1>
     <div>
-        <h2>Metric Units</h2>
+        <h2 class="text-4xl font-extrabold text-center">Metric Units</h2>
         <div>
             <MetricUnits></MetricUnits>
         </div>
@@ -17,3 +17,7 @@ export default{
     }
 }
 </script>
+
+<style>
+
+</style>
